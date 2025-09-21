@@ -14,12 +14,12 @@ android {
     versionCode 1
     versionName "1.0"
 
-    // lo useremo tra poco per collegare Supabase
     buildConfigField "String", "BASE_URL", '"https://<PROJECT>.functions.supabase.co/"'
   }
 
   buildFeatures { compose true }
   composeOptions { kotlinCompilerExtensionVersion '1.5.15' }
+
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_17
     targetCompatibility JavaVersion.VERSION_17
